@@ -7,4 +7,4 @@ def hello():
 @app.route('/')
 @app.route('/index')
 def index():
-    url_for("/www/index.html")
+    return render_template('index.html')
