@@ -5,5 +5,5 @@ print('<title>Reply Page</title>')
 if 'user' = 'hao' :
     print('<h1>Please enter your name.</h1>')
 else:
-    print('<h1>Hello <i>%s</i>!</h1>')
+    print('<h1>Hello!</h1>')
     
